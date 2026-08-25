@@ -11,7 +11,7 @@ body.page-leaving{animation:page-fade-out .2s var(--ease) forwards;}
 @keyframes page-fade-in{from{opacity:0}to{opacity:1}}
 @keyframes page-fade-out{to{opacity:0}}
 body.home-bg{background:linear-gradient(rgba(20,24,40,.6),rgba(20,24,40,.6)),url('../assets/nairobi-cbd-skyline.jpg') center 20%/cover no-repeat fixed;}
-body.home-bg{background-image:linear-gradient(rgba(20,24,40,.6),rgba(20,24,40,.6)),image-set(url('../assets/nairobi-cbd-skyline.webp') type('image/webp'),url('../assets/nairobi-cbd-skyline.jpg') type('image/jpeg'));}
+body.home-bg{background-image:linear-gradient(rgba(20,24,40,.6),rgba(20,24,40,.6)),image-set(url('../assets/nairobi-cbd-skyline.avif') type('image/avif'),url('../assets/nairobi-cbd-skyline.webp') type('image/webp'),url('../assets/nairobi-cbd-skyline.jpg') type('image/jpeg'));}
 @media (max-width:768px){body.home-bg{background-attachment:scroll;}}
 h1,h2,h3{font-family:"Playfair Display",serif;color:var(--navy);margin:0;text-wrap:pretty;}
 p{line-height:1.7;font-size:17px;}
