@@ -1,4 +1,4 @@
-:root{--navy:#2A3859;--navy-light:#68728A;--grey:#ABACAE;--ink:#222631;--note:#54585f;--line:#dfe1e6;--tint:#f6f7f9;--white:#ffffff;
+:root{--navy:#2A3859;--navy-light:#68728A;--grey:#75757a;--ink:#222631;--note:#54585f;--line:#dfe1e6;--tint:#f6f7f9;--white:#ffffff;
 --space-1:8px;--space-2:16px;--space-3:24px;--space-4:32px;--space-5:48px;--space-6:64px;--space-7:96px;--space-8:120px;
 --radius:4px;--container:1180px;
 --ease:cubic-bezier(.4,0,.2,1);--t-fast:.2s var(--ease);--t-med:.4s var(--ease);--t-slow:.7s var(--ease);
@@ -58,7 +58,7 @@ footer{background:rgba(31,45,82,.97);color:#c7cbdb;padding:70px 40px 30px;}
 .foot-brand img{height:38px;width:auto;margin-bottom:14px;}
 .foot-brand .fn{color:#fff;font-weight:700;font-size:17px;line-height:1.3;}
 .foot-brand .fa{font-family:"Cinzel",serif;font-weight:600;font-size:9px;letter-spacing:2px;color:#8f96ac;text-transform:uppercase;margin-top:5px;}
-footer h5{font-family:"Cinzel",serif;font-weight:700;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8f96ac;margin:0 0 16px;}
+footer .label{font-family:"Cinzel",serif;font-weight:700;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8f96ac;margin:0 0 16px;}
 footer a{color:#dde0ea;font-size:14px;}
 footer a:hover{color:#fff;}
 footer .row{margin-bottom:10px;line-height:1.6;}
@@ -192,7 +192,7 @@ article.body li{margin-bottom:8px;}
 @media (max-width:768px){.article-hero{padding:50px 0 36px;}.article-hero h1{font-size:32px;}article.body{font-size:17px;}article.body h2{font-size:22px;margin:36px 0 14px;}}
 
 .contact-grid{max-width:var(--container);margin:0 auto;padding:90px 40px 110px;display:grid;grid-template-columns:1fr 1.3fr;gap:70px;}
-.contact-info h5{font-family:"Cinzel",serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--grey);margin:0 0 14px;}
+.contact-info .label{font-family:"Cinzel",serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--grey);margin:0 0 14px;}
 .contact-info .block{margin-bottom:34px;}
 .contact-info .v{font-size:18px;color:var(--ink);}
 .call-btn{display:inline-flex;align-items:center;gap:10px;background:var(--navy);color:#fff;font-family:"Cinzel",serif;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:16px 28px;margin-top:8px;transition:background var(--t-fast),transform var(--t-fast);}
